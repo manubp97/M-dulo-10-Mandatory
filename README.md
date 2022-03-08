@@ -75,10 +75,7 @@ const calculateRadiusBasedOnAffectedCases = (
   return entry ? affectedRadiusScale(entry.value) + adder(maxAffected) : 0;
 };
 ```
-
-### Update chart when buttons are clicked
-
-We now that we have to pass d.properties.NAME_1 as a parameter for assignColorToCommunity function because when we inspect spain.json, we can see that the property NAME_1 refers to the community name.
+### Create the buttons
 
 ```typescript
 const updateChart = (dataset: ResultEntry[]) => {
@@ -93,8 +90,6 @@ const updateChart = (dataset: ResultEntry[]) => {
     .attr("r", (d) => calculateRadiusBasedOnAffectedCases(d.name, dataset));
 };
 ```
-
-### Create the button
 
 ```typescript
 document
