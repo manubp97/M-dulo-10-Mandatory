@@ -1,5 +1,5 @@
 # M-dulo-10-Mandatory
-
+![Alt text](./capture.PNG?raw=true "Map")
 # Map of COVID cases in Spain
 
 In the map below, the number of covid cases are shown with circles, their size is relative to the amount of cases. With the button we can compare the number of cases in two different times, 22 of April of 2021 as the initial stat and 4 of March of 2022. The number of cases is accumulated since the start of the pandemy.
